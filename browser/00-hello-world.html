@@ -1,10 +1,10 @@
 <html>
   <head>
-    <title>My First Zbox App</title>
+    <title>Hello, World!</title>
     <meta charset="utf-8"/>
     <script src="zbox-browser-0.1.2/index.js"></script>
     <script>
-      (async () => {
+      async function run() {
         // create a Zbox instance
         const zbox = new Zbox();
 
@@ -13,7 +13,8 @@
 
         // open the repo
         var repo = await zbox.openRepo({
-          uri: '[your_repo_uri]',
+          //uri: '[your_repo_uri]',
+          uri: 'zbox://zbqBnEee6UbSVDjHbHBfDSNB@sU4gCUtrFpAV76',
           pwd: 'secret password',
           opts: { create: true }
         });
@@ -35,11 +36,12 @@
         await file.close();
         await repo.close();
         await zbox.exit();
-      })();
+      }
     </script>
   </head>
   <body>
-    <h1>Welcome to Zbox!</h1>
-    <p>Open "Developer Tools" to watch the logs.</p>
+    <h1>Hello, World!</h1>
+    <button onclick="run()">Run Tutorial</button>
+    <p><a href="index.html">Back</a></p>
   </body>
 </html>
