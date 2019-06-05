@@ -1,0 +1,8 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Zbox"]
+edition = "2018"
+
+[dependencies]
+zbox = { version = "0.8.1", features = ["storage-zbox-native", "libsodium-bundled"] }
