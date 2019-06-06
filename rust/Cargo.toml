@@ -1,5 +1,5 @@
 [package]
-name = "hello_world"
+name = "zbox_rust_tutorials"
 version = "0.1.0"
 authors = ["Zbox"]
 edition = "2018"

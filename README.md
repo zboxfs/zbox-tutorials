@@ -8,8 +8,8 @@ Zbox by reading through [Introduction] and [Getting Started Guide].
 Then, you can choose the tutorial of different language below:
 
 - [Browser Tutorials](browser/)
-- [Node.js Tutorials](nodejs/00-HelloWorld/README.md)
-- [Rust Tutorials](rust/00-HelloWorld/README.md)
+- [Node.js Tutorials](nodejs/)
+- [Rust Tutorials](rust/)
 
 These tutorials are licensed under the Apache 2.0 License - see the
 [LICENSE](LICENSE) file for details.

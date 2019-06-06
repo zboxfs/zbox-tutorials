@@ -1,3 +1,8 @@
+/*
+ * This tutorial shows how to write and read a simple "Hello, World!" file
+ * using Zbox.
+ */
+
 extern crate zbox;
 
 use std::io::{Read, Write, Seek, SeekFrom};

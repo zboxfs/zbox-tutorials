@@ -1,6 +1,11 @@
+/*
+ * This tutorial shows how to write and read a simple "Hello, World!" file
+ * using Zbox.
+ */
+
 const Zbox = require('@zbox/nodejs');
 
-(async () => {
+(async function run() {
   // create a Zbox instance
   const zbox = new Zbox();
 

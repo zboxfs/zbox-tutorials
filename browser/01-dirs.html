@@ -25,11 +25,11 @@
         await repo.createDirAll('/foo/bar/baz');
 
         // list root dir
-        const root = await repo.readDir("/");
+        const root = await repo.readDir('/');
         console.log(root);
 
         // list /foo dir
-        const foo = await repo.readDir("/foo");
+        const foo = await repo.readDir('/foo');
         console.log(foo);
 
         // remove an empty dir
