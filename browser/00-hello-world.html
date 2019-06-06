@@ -13,8 +13,7 @@
 
         // open the repo
         var repo = await zbox.openRepo({
-          //uri: '[your_repo_uri]',
-          uri: 'zbox://zbqBnEee6UbSVDjHbHBfDSNB@sU4gCUtrFpAV76',
+          uri: '[your_repo_uri]',
           pwd: 'secret password',
           opts: { create: true }
         });
@@ -39,8 +38,13 @@
       }
     </script>
   </head>
+
   <body>
     <h1>Hello, World!</h1>
+    <p>
+      This tutorial shows how to write and read a simple "Hello, World!" file
+      using Zbox. Click below button to start.
+    </p>
     <button onclick="run()">Run Tutorial</button>
     <p><a href="index.html">Back</a></p>
   </body>

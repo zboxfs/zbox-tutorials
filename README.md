@@ -2,16 +2,18 @@
 
 Tutorials for learning how to use [Zbox].
 
-Before using this tutorials, make sure you have read through [Zbox Introduction]
-and [Getting Started].
+Before using this tutorials, make sure you have already got basic ideas about
+Zbox by reading through [Introduction] and [Getting Started Guide].
 
-- [Browser Tutorials](browser/README.md)
+Then, you can choose the tutorial of different language below:
+
+- [Browser Tutorials](browser/)
 - [Node.js Tutorials](nodejs/00-HelloWorld/README.md)
 - [Rust Tutorials](rust/00-HelloWorld/README.md)
 
-This package is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE)
-file for details.
+These tutorials are licensed under the Apache 2.0 License - see the
+[LICENSE](LICENSE) file for details.
 
 [Zbox]: https://zbox.io
-[Zbox Introduction]: https://docs.zbox.io
-[Getting Started]: https://docs.zbox.io/getting-started.html
+[Introduction]: https://docs.zbox.io
+[Getting Started Guide]: https://docs.zbox.io/getting-started.html
