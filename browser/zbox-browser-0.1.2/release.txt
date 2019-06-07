@@ -1,1 +1,0 @@
-ZboxFS browser js binding v0.1.2

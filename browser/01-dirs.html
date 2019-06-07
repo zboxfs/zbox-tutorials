@@ -2,14 +2,14 @@
   <head>
     <title>Directory Operations</title>
     <meta charset="utf-8"/>
-    <script src="zbox-browser-0.1.2/index.js"></script>
+    <script src="zbox-browser-0.2.0/index.js"></script>
     <script>
       async function run() {
         // create a Zbox instance
         const zbox = new Zbox();
 
         // initialise Zbox environment and turn on debug logs
-        await zbox.initEnv({ debug: true });
+        await zbox.initEnv({ logLevel: 'debug' });
 
         // open the repo
         var repo = await zbox.openRepo({

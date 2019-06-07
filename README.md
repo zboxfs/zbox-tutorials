@@ -3,9 +3,9 @@
 Tutorials for learning how to use [Zbox].
 
 Before using this tutorials, make sure you have already got basic ideas about
-Zbox by reading through [Introduction] and [Getting Started Guide].
+Zbox by reading through [Introduction] and [Getting Started].
 
-Then, you can choose the tutorial of different language below:
+Then clone this repo and follow the examples in different languages:
 
 - [Browser Tutorials](browser/)
 - [Node.js Tutorials](nodejs/)
@@ -16,4 +16,4 @@ These tutorials are licensed under the Apache 2.0 License - see the
 
 [Zbox]: https://zbox.io
 [Introduction]: https://docs.zbox.io
-[Getting Started Guide]: https://docs.zbox.io/getting-started.html
+[Getting Started]: https://docs.zbox.io/getting-started.html
