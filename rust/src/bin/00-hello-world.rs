@@ -9,7 +9,7 @@ use std::io::{Read, Write, Seek, SeekFrom};
 use zbox::{init_env, RepoOpener, OpenOptions};
 
 fn main() {
-    // initialise zbox environment, called first
+    // initialise Zbox environment, called first
     init_env();
 
     // create and open a repository

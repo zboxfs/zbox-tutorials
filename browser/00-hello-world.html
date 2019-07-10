@@ -28,7 +28,7 @@
         await file.seek({ from: Zbox.SeekFrom.Start, offset: 0 });
 
         // read all content as string
-        const str = await file.readAllString()
+        const str = await file.readAllString();
         console.log(str);
 
         // close file, repo and exit Zbox
