@@ -2,14 +2,71 @@
   <head>
     <title>Zbox Browser Tutorials</title>
     <meta charset="utf-8"/>
+    <script src="zbox-browser-0.2.0/index.js"></script>
+    <script>
+      // replace your repo's URI here
+      const uri = '[your_repo_uri]';
+
+      // password to encrypt/decrypt repo
+      const pwd = 'secret password';
+
+      // customised logger, used in the example codes but not required
+      function logger(level, msg, from) {
+        const loc = from || 'index.html';
+        const log = `[${level} ${loc}] ${msg}`;
+        let output;
+        switch (level) {
+          case 'trace': output = console.log; break;
+          case 'debug': output = console.debug; break;
+          case 'info': output = console.info; break;
+          case 'warn': output = console.warn; break;
+          case 'error': output = console.error; break;
+          default: output = console.log; break;
+        }
+        output(log);
+      }
+
+      // dynamically load example code files and run it
+      function loadJS(file) {
+        var el = document.createElement("script");
+        el.type = "application/javascript";
+        el.src = file;
+        el.onload = () => { run(); };
+        document.body.appendChild(el);
+      }
+    </script>
+    <style>
+      button {
+        padding: 5px;
+      }
+    </style>
   </head>
   <body>
     <h1>Welcome to Zbox!</h1>
-    <p>Click each link below to see the tutorial, open "Developer Tools" to watch console logs.</p>
+    <p>
+      Click button below to run the examples, rememeber open "Developer Tools"
+      to watch console logs.
+    </p>
     <ol>
-      <li><a href="00-hello-world.html">Hello World</a></li>
-      <li><a href="01-dirs.html">Directory Operations</a></li>
-      <li><a href="02-files.html">File Operations</a></li>
-      <li><a href="03-fs.html">File System Operations</a></li>
+      <li>
+        <h3>Hello World</h3>
+        <p>How to write and read a simple "Hello, World!" file using Zbox.</p>
+        <p><button onclick="loadJS('00-hello-world.js')">Run this example</button></p>
+      </li>
+      <li>
+        <h3>Directory Operations</h3>
+        <p>Basic directory operations, such as create, list, remove and etc.</p>
+        <p><button onclick="loadJS('01-dirs.js')">Run this example</button></p>
+      </li>
+      <li>
+        <h3>File Operations</h3>
+        <p>Basic file operations, such as create, read/write, remove and etc.</p>
+        <p><button onclick="loadJS('02-files.js')">Run this example</button></p>
+      </li>
+      <li>
+        <h3>File System Operations</h3>
+        <p>Basic file system operations, such as metadata, copy, rename and etc.</p>
+        <p><button onclick="loadJS('03-fs.js')">Run this example</button></p>
+      </li>
     </ol>
   </body>
