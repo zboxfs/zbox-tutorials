@@ -9,7 +9,7 @@ const Zbox = require('@zbox/nodejs');
   const zbox = new Zbox();
 
   // initialise Zbox environment and turn on debug logs
-  await zbox.initEnv({ logLevel: 'debug' });
+  await zbox.initEnv({ log: { level: 'debug' } });
 
   // open the repo
   var repo = await zbox.openRepo({

@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zbox/nodejs": "^0.1.14"
+    "@zbox/nodejs": "^0.3.0"
   }
 }
