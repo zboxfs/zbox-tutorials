@@ -15,7 +15,7 @@ To use these tutorials, follow these steps:
    node app.js
    ```
 
-4. Open a browser, visit http://localhost:3000 and watch console log output.
+4. Open a browser visit http://localhost:3000 and watch console log output.
 
 ## Tutorial List
 
