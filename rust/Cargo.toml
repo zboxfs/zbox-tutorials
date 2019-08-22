@@ -5,4 +5,4 @@ authors = ["Zbox"]
 edition = "2018"
 
 [dependencies]
-zbox = { version = "0.8.3", features = ["storage-zbox-native", "libsodium-bundled"] }
+zbox = { version = "0.8.4", features = ["storage-zbox-native", "libsodium-bundled"] }
